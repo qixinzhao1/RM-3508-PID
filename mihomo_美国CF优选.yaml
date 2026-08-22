@@ -1,1784 +1,7 @@
-# Mihomo configuration generated from the supplied VLESS XHTTP links.
-# Each node preserves the original uplink server and maps extra.downloadSettings.address to XHTTP download-settings.server.
-mixed-port: 7890
-allow-lan: false
-mode: rule
-log-level: info
-ipv6: false
-
+# Mihomo proxy-provider for 3.自建节点
+# 40 VLESS/XHTTP nodes ordered by measured download speed.
 proxies:
-  - name: "美国CF优选1"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.24.62.109"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选2"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.77.183"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选3"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.26.7.78"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选4"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.19.104.250"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选5"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.66.169.161"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选6"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.67.90.3"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选7"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.20.43.87"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选8"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.24.71.250"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选9"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.26.0.233"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选10"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.67.71.195"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选11"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "162.159.130.67"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选12"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.26.7.183"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选13"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.25.10.101"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选14"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.26.12.220"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选15"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.27.35.174"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选16"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.19.200"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选17"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.25.143.132"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选18"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.9.129"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选19"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "162.159.130.87"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选20"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.26.6.183"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选21"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "162.159.129.10"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选22"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.25.11.139"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选23"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.20.30.58"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选24"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.24.83.175"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选25"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.24.55.66"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选26"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "162.159.129.67"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选27"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.28.34"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选28"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.66.47.114"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选29"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.66.42.225"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选30"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.25.206.77"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选31"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.26.3.36"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选32"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.26.1.182"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选33"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.26.1.233"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选34"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.20.34.13"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选35"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.27.121.52"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选36"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.24.216.244"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选37"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.67.70.40"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选38"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.20.23.26"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选39"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.18.94"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选40"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.91.171"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选41"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.25.171.65"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选42"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.17.78.30"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选43"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.159.211"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选44"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.45.99"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选45"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.26.207"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选46"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.19.238.9"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选47"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.17.31.220"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选48"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.191.240"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选49"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.21.82.115"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选50"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.66.41.6"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选51"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.67.70.181"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选52"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.30.48"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选53"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.4.101"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选54"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.40.10"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选55"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.19.160.160"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选56"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.27.195"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选57"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.63.16"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选58"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.28.88"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选59"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.17.136.61"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选60"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.58.25"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选61"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.30.209"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选62"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.31.48"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选63"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.110.210"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选64"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.39.116"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选65"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.66.47.2"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选66"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.151.211"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选67"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.17.135.61"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选68"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.19.168.24"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选69"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.4.14"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选70"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.8.129"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选71"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.6.148"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选72"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.153.130"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选73"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.150.35"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选74"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.9.74"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选75"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.41.121"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选76"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.233.170"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选77"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.17.79.30"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选78"
+  - name: "cf-001"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -1798,10 +21,10 @@ proxies:
         server: "172.64.145.93"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选79"
+  - name: "cf-002"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -1818,312 +41,13 @@ proxies:
       path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
       mode: "auto"
       download-settings:
-        server: "104.18.42.2"
+        server: "104.17.78.30"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选80"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.62.16"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选81"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.244.4"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选82"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.37.229"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选83"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.44.99"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选84"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.18.200"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选85"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.20.82"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选86"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.31.252"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选87"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.7.183"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选88"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.22.160"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选89"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.1.173"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选90"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.20.22.225"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选91"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.30.168"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选92"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.34.137"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选93"
+  - name: "cf-003"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -2143,10 +67,10 @@ proxies:
         server: "172.67.75.162"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选94"
+  - name: "cf-004"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -2163,13 +87,13 @@ proxies:
       path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
       mode: "auto"
       download-settings:
-        server: "104.16.32.146"
+        server: "104.26.0.233"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选95"
+  - name: "cf-005"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -2186,82 +110,13 @@ proxies:
       path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
       mode: "auto"
       download-settings:
-        server: "104.16.59.25"
+        server: "172.64.91.171"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选96"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.30.252"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选97"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.7.195"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选98"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.35.191"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选99"
+  - name: "cf-006"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -2281,10 +136,10 @@ proxies:
         server: "104.18.21.36"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选100"
+  - name: "cf-007"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -2301,13 +156,13 @@ proxies:
       path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
       mode: "auto"
       download-settings:
-        server: "172.66.42.250"
+        server: "162.159.129.67"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选101"
+  - name: "cf-008"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -2324,197 +179,13 @@ proxies:
       path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
       mode: "auto"
       download-settings:
-        server: "104.18.234.170"
+        server: "104.18.42.2"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选102"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.19.80.15"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选103"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.42.163"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选104"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.33.13"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选105"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.150.155"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选106"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.151.179"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选107"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.40.141"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选108"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.37.221"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选109"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.36.77"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选110"
+  - name: "cf-009"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -2534,10 +205,10 @@ proxies:
         server: "172.64.148.140"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选111"
+  - name: "cf-010"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -2554,197 +225,13 @@ proxies:
       path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
       mode: "auto"
       download-settings:
-        server: "172.64.153.85"
+        server: "104.18.28.88"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-  - name: "美国CF优选112"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.16.28.24"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选113"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.19.103.54"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选114"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.151.219"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选115"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.17.30.199"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选116"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.147.246"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选117"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.7.148"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选118"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "104.18.64.55"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选119"
-    type: vless
-    server: "52.141.63.247"
-    port: 443
-    uuid: "71751806-1458-4538-89df-f1c99b819375"
-    udp: true
-    tls: true
-    servername: "www.18070506.xyz"
-    client-fingerprint: "chrome"
-    alpn: ["h2"]
-    encryption: "none"
-    network: xhttp
-    xhttp-opts:
-      host: "www.18070506.xyz"
-      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
-      mode: "auto"
-      download-settings:
-        server: "172.64.155.130"
-        port: 443
-        tls: true
-        alpn: ["h2"]
-        servername: "www.18070506.xyz"
-        client-fingerprint: "chrome"
-  - name: "美国CF优选120"
+  - name: "cf-011"
     type: vless
     server: "52.141.63.247"
     port: 443
@@ -2764,26 +251,673 @@ proxies:
         server: "172.64.146.135"
         port: 443
         tls: true
-        alpn: ["h2"]
+        alpn: ['h2']
         servername: "www.18070506.xyz"
         client-fingerprint: "chrome"
-
-proxy-groups:
-  - name: "节点选择"
-    type: select
-    proxies:
-      - "自动选择"
-      - "手动选择"
-  - name: "自动选择"
-    type: url-test
-    url: "https://www.gstatic.com/generate_204"
-    interval: 300
-    tolerance: 50
-    proxies: ["美国CF优选1", "美国CF优选2", "美国CF优选3", "美国CF优选4", "美国CF优选5", "美国CF优选6", "美国CF优选7", "美国CF优选8", "美国CF优选9", "美国CF优选10", "美国CF优选11", "美国CF优选12", "美国CF优选13", "美国CF优选14", "美国CF优选15", "美国CF优选16", "美国CF优选17", "美国CF优选18", "美国CF优选19", "美国CF优选20", "美国CF优选21", "美国CF优选22", "美国CF优选23", "美国CF优选24", "美国CF优选25", "美国CF优选26", "美国CF优选27", "美国CF优选28", "美国CF优选29", "美国CF优选30", "美国CF优选31", "美国CF优选32", "美国CF优选33", "美国CF优选34", "美国CF优选35", "美国CF优选36", "美国CF优选37", "美国CF优选38", "美国CF优选39", "美国CF优选40", "美国CF优选41", "美国CF优选42", "美国CF优选43", "美国CF优选44", "美国CF优选45", "美国CF优选46", "美国CF优选47", "美国CF优选48", "美国CF优选49", "美国CF优选50", "美国CF优选51", "美国CF优选52", "美国CF优选53", "美国CF优选54", "美国CF优选55", "美国CF优选56", "美国CF优选57", "美国CF优选58", "美国CF优选59", "美国CF优选60", "美国CF优选61", "美国CF优选62", "美国CF优选63", "美国CF优选64", "美国CF优选65", "美国CF优选66", "美国CF优选67", "美国CF优选68", "美国CF优选69", "美国CF优选70", "美国CF优选71", "美国CF优选72", "美国CF优选73", "美国CF优选74", "美国CF优选75", "美国CF优选76", "美国CF优选77", "美国CF优选78", "美国CF优选79", "美国CF优选80", "美国CF优选81", "美国CF优选82", "美国CF优选83", "美国CF优选84", "美国CF优选85", "美国CF优选86", "美国CF优选87", "美国CF优选88", "美国CF优选89", "美国CF优选90", "美国CF优选91", "美国CF优选92", "美国CF优选93", "美国CF优选94", "美国CF优选95", "美国CF优选96", "美国CF优选97", "美国CF优选98", "美国CF优选99", "美国CF优选100", "美国CF优选101", "美国CF优选102", "美国CF优选103", "美国CF优选104", "美国CF优选105", "美国CF优选106", "美国CF优选107", "美国CF优选108", "美国CF优选109", "美国CF优选110", "美国CF优选111", "美国CF优选112", "美国CF优选113", "美国CF优选114", "美国CF优选115", "美国CF优选116", "美国CF优选117", "美国CF优选118", "美国CF优选119", "美国CF优选120"]
-  - name: "手动选择"
-    type: select
-    proxies: ["美国CF优选1", "美国CF优选2", "美国CF优选3", "美国CF优选4", "美国CF优选5", "美国CF优选6", "美国CF优选7", "美国CF优选8", "美国CF优选9", "美国CF优选10", "美国CF优选11", "美国CF优选12", "美国CF优选13", "美国CF优选14", "美国CF优选15", "美国CF优选16", "美国CF优选17", "美国CF优选18", "美国CF优选19", "美国CF优选20", "美国CF优选21", "美国CF优选22", "美国CF优选23", "美国CF优选24", "美国CF优选25", "美国CF优选26", "美国CF优选27", "美国CF优选28", "美国CF优选29", "美国CF优选30", "美国CF优选31", "美国CF优选32", "美国CF优选33", "美国CF优选34", "美国CF优选35", "美国CF优选36", "美国CF优选37", "美国CF优选38", "美国CF优选39", "美国CF优选40", "美国CF优选41", "美国CF优选42", "美国CF优选43", "美国CF优选44", "美国CF优选45", "美国CF优选46", "美国CF优选47", "美国CF优选48", "美国CF优选49", "美国CF优选50", "美国CF优选51", "美国CF优选52", "美国CF优选53", "美国CF优选54", "美国CF优选55", "美国CF优选56", "美国CF优选57", "美国CF优选58", "美国CF优选59", "美国CF优选60", "美国CF优选61", "美国CF优选62", "美国CF优选63", "美国CF优选64", "美国CF优选65", "美国CF优选66", "美国CF优选67", "美国CF优选68", "美国CF优选69", "美国CF优选70", "美国CF优选71", "美国CF优选72", "美国CF优选73", "美国CF优选74", "美国CF优选75", "美国CF优选76", "美国CF优选77", "美国CF优选78", "美国CF优选79", "美国CF优选80", "美国CF优选81", "美国CF优选82", "美国CF优选83", "美国CF优选84", "美国CF优选85", "美国CF优选86", "美国CF优选87", "美国CF优选88", "美国CF优选89", "美国CF优选90", "美国CF优选91", "美国CF优选92", "美国CF优选93", "美国CF优选94", "美国CF优选95", "美国CF优选96", "美国CF优选97", "美国CF优选98", "美国CF优选99", "美国CF优选100", "美国CF优选101", "美国CF优选102", "美国CF优选103", "美国CF优选104", "美国CF优选105", "美国CF优选106", "美国CF优选107", "美国CF优选108", "美国CF优选109", "美国CF优选110", "美国CF优选111", "美国CF优选112", "美国CF优选113", "美国CF优选114", "美国CF优选115", "美国CF优选116", "美国CF优选117", "美国CF优选118", "美国CF优选119", "美国CF优选120"]
-
-rules:
-  - MATCH,节点选择
-
+  - name: "cf-012"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "172.64.150.155"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-013"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "172.64.151.219"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-014"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.7.183"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-015"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.19.80.15"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-016"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.1.173"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-017"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.16.63.16"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-018"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.30.168"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-019"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.40.141"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-020"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.8.129"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-021"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.17.30.199"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-022"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "172.67.70.40"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-023"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.19.238.9"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-024"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.19.103.54"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-025"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.6.148"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-026"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "172.66.47.114"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-027"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.41.121"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-028"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.16.191.240"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-029"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "172.64.153.130"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-030"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "162.159.130.87"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-031"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.17.136.61"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-032"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.4.101"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-033"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.7.195"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-034"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.20.82"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-035"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.16.18.94"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-036"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.19.168.24"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-037"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.36.77"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-038"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.20.34.13"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-039"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.18.19.200"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
+  - name: "cf-040"
+    type: vless
+    server: "52.141.63.247"
+    port: 443
+    uuid: "71751806-1458-4538-89df-f1c99b819375"
+    udp: true
+    tls: true
+    servername: "www.18070506.xyz"
+    client-fingerprint: "chrome"
+    alpn: ["h2"]
+    encryption: "none"
+    network: xhttp
+    xhttp-opts:
+      host: "www.18070506.xyz"
+      path: "/assets/v1/20c3649ddf0da438b5bc2fe7b9439732"
+      mode: "auto"
+      download-settings:
+        server: "104.16.30.252"
+        port: 443
+        tls: true
+        alpn: ['h2']
+        servername: "www.18070506.xyz"
+        client-fingerprint: "chrome"
